@@ -5,68 +5,60 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:background="@android:color/darker_gray"
-    tools:context="com.example.ilyas.elmar_yazilim_otopark.ilk_giris_sayfasi">
-
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="353dp"
-        android:layout_height="314dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/login2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    tools:context="com.example.ilyas.otopark_elmar_sonhali.ilk_giris_sayfasi">
 
 
     <Button
         android:id="@+id/giris_button"
         android:layout_width="175dp"
-        android:layout_height="57dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:background="@android:color/holo_green_light"
         android:text="GİRİŞ"
         android:textColor="@android:color/background_light"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginLeft="8dp"></Button>
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/kAdi_editText"
         android:layout_width="310dp"
         android:layout_height="64dp"
+        android:layout_marginBottom="28dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Kullanıcı Adı"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/sifre_editText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/sifre_editText"
         android:layout_width="312dp"
         android:layout_height="60dp"
+        android:layout_marginBottom="44dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Şifre"
         android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/temizle_button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kAdi_editText" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/temizle_button"
         android:layout_width="175dp"
-        android:layout_height="57dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -74,17 +66,9 @@
         android:text="TEMİZLE"
         android:textColor="@android:color/background_light"
         android:textSize="25sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/giris_button" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/kayit_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Button"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="307dp" />
 
 </android.support.constraint.ConstraintLayout>

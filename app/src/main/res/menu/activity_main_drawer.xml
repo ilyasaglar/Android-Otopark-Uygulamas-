@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_giris_cikis"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Giriş Cıkış" />
+
+        <item
+            android:id="@+id/deneme"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Otoparktaki Araçlar" />
+
+
+        <item
+            android:id="@+id/activity_giris_cikis_listesi"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Giriş Cıkış Listesi" />
+
+        <item
+            android:id="@+id/activity_aboneler"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Aboneler" />
+
+        <item
+            android:id="@+id/activity_saat_tanimlari"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Saat Tanımları" />
+
+
+
+
+
+    </group>
+
+
+
+
+</menu>
